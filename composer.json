@@ -1,0 +1,13 @@
+{
+   "autoload": {
+      "psr-4": {
+         "lib\\": "src/lib"
+      }
+   },
+   "require-dev": {
+      "phpunit/phpunit": "^7.1",
+      "phpdocumentor/phpdocumentor": "*",
+      "phpdocumentor/graphviz": "1.*@beta",
+      "phpdocumentor/reflection-docblock": "~2.0@dev"
+   }
+}
