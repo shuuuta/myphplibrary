@@ -28,6 +28,9 @@ class Validator
         $this->checkEncoding($_GET);
         $this->checkEncoding($_POST);
         $this->checkEncoding($_COOKIE);
+        $this->checkNull($_GET);
+        $this->checkNull($_POST);
+        $this->checkNull($_COOKIE);
     }
 
     /**
